@@ -10,7 +10,7 @@ class JQ8400FL
 {
 private:
 	Stream * m_Stream;
-	byte sequence[50];
+	byte sequence[80];
 	uint16_t index;
 	uint16_t sendByte(byte value, uint16_t checksum); 
 	void sendCmd (byte cmd, byte value); 
